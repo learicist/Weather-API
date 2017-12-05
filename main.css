@@ -1,0 +1,45 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+body {
+  background-color:#1385a8;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  color:#3a14ba;
+  text-decoration:underline;
+  font-size:4.5em;
+  margin-bottom:5%;
+}
+
+#gps {
+  margin:auto 25%;
+  text-align:center;
+  font-size:3.5em;
+  color:#3a14ba;
+}
+
+#temp {
+  margin:auto 25%;
+  text-align:center;
+  color:#3a14ba;
+  font-size:2.4em;
+}
+
+#icon {
+  display:flex;
+  justify-content:center;
+}
+
+#units {
+  margin:auto;
+  border-radius:8px;
+  font-size:1.2em;
+  display:flex;
+  justify-content:center;
+  background-color:#3a14ba;
+  color:white;
+}
