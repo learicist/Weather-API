@@ -32,7 +32,8 @@ $(document).ready(function(){
         });
       });
     });
-    //If user rejects prompt
+	
+    //If user rejects prompt	
   } else {
     $("#gps").html("This browser does not support this service.");
   }
