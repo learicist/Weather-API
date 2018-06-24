@@ -31,11 +31,11 @@ $(document).ready(function(){
 				
 				$("#units").on("click", function(){
 					if (isCel) {
-						$("#temp").html(Math.floor(temp * 1.8 + 32) + "°F");
-						$("#units").html("Switch to Cel");
+						$("#temp").html(Math.floor(temp * 1.8 + 32) + "°F" + "<br>" + hum + "% humidity");
+						$("#units").html("Switch to Celsius");
 						isCel = false;
 					} else {
-						$("#temp").html(temp + "°C");
+						$("#temp").html(temp + "°C" + "<br>" + hum + "% humidity");
 						isCel = true;
 						$("#units").html("Switch to Farenheit");
 					}
