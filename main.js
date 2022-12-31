@@ -10,7 +10,7 @@ $(document).ready(function(){
 			lat = position.coords.latitude;
 			lon = position.coords.longitude;
 			//construct API url
-			url = api + "lat=" + lat + "&" + "lon=" + lon + "&APPID=638cb6041dad3debd1f8ebe1b5d452d4";
+			url = api + "lat=" + lat + "&" + "lon=" + lon + "&APPID=f4dd0342f5a7933101c151149507063e";
 			
 			$.getJSON((url), function(json) {
 			  
